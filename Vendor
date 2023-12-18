@@ -1,0 +1,13 @@
+package model;
+public class Vendor extends person{
+    private String idVendor;
+
+    public Vendor setIdVendor(String idVendor){
+        this.idVendor = idVendor;
+        return this;
+    }
+    public String getIdPenjual(){
+        return this.idVendor;
+    }
+
+}
