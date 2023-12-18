@@ -1,0 +1,12 @@
+package model;
+public class Customer extends person{
+    private String idCustomer;
+
+    public Customer setIdPembeli(String idCustomer){
+        this.idCustomer = idCustomer;
+        return this;
+    }
+    public String getIdPembeli(){
+        return this.idCustomer;
+    }
+}
