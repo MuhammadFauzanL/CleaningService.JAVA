@@ -1,0 +1,45 @@
+package controller;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import model.serviceType;
+import model.serviceOrder;
+import model.Customer;
+import model.Vendor;
+import model.person;
+import model.Service;
+
+public class ServiceController {
+    HashMap<String, serviceType> serviceTypes = new HashMap();
+    ArrayList<Service> Service = new ArrayList<>();
+    HashMap<String, Customer> Customers = new HashMap();
+    HashMap<String, Service> Services = new HashMap();
+
+    public void setUp() {
+        serviceType serviceType1 = new serviceType();
+        serviceType serviceType2 = new serviceType();
+        serviceType serviceType3 = new serviceType();
+        serviceType serviceType4 = new serviceType();
+        
+    }
+
+    public void lihatDaftarserviceType() {
+    }
+
+    public void belanja() {
+    }
+
+    public static void tampilkanLaporanService() {
+    }
+
+}
+          
